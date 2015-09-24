@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <stock>
+		<symbol>ACE</symbol>		
+		<name>Action Construction Equipment Ltd</name>
+		<label>ACE - Action Construction Equipment Ltd</label>
+	</stock>
+	<stock>
+		<symbol>ACGL</symbol>		
+		<name>Automobile Corp. of Goa Ltd.</name>
+		<label>ACGL - Automobile Corp. of Goa Ltd.</label>
+	</stock>
+</data-set>
