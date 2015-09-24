@@ -25,7 +25,7 @@
 						<div class="col-md-6">
 							<!–– [2] Use sign-fade directive on wrapper element ––>
 							<div stk-sign-fade="{{marketValue}}" class="well">
-								<h2>{{marketValue | currency}}</h2>
+								<h2>{{marketValue | currency:"&#8377"}}</h2>
 								<h5>Total Market Value</h5>
 							</div>
 						</div>
@@ -33,7 +33,7 @@
 						<div class="col-md-6">
 							<!–– [3] Use sign-color directive on wrapper element ––>
 							<div class="well" stk-sign-color="{{dayChange}}">
-								<h2>{{dayChange | currency}}</h2>
+								<h2>{{dayChange | currency:"&#8377"}}</h2>
 								<h5>Total Day Change</h5>
 							</div>
 						</div>
