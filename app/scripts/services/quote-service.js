@@ -30,7 +30,7 @@ angular.module('stockDogApp')
           }
         });
 
-        if (!ele) {
+        if (!ele || ele.length==0) {
           stocks.push(stock);
         }
       }
